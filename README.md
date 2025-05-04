@@ -39,6 +39,37 @@ To participate in this project, learners should:
 - **API Security:** Implementation of best security practices.
 - **CI/CD Integration:** Automated pipelines for seamless deployment.
 
+## Team Roles
+
+Understanding the roles within the project team is essential for effective collaboration and project success. Below is a breakdown of key roles and their responsibilities in the **Airbnb Clone Project**.
+
+### Backend Developer
+Responsible for designing and implementing the server-side logic, database interactions, and API endpoints. Ensures the application is scalable, secure, and efficient.
+
+### Database Administrator (DBA)
+Manages the database structure, optimizes queries, and ensures data integrity. Responsible for backups, security, and performance tuning.
+
+### DevOps Engineer
+Handles CI/CD pipeline integration, automates deployment processes, and ensures system reliability using tools like Docker and GitHub Actions.
+
+### UI/UX Designer
+Focuses on creating intuitive and visually appealing user interfaces. Works closely with developers to ensure a seamless user experience.
+
+### Quality Assurance (QA) Engineer
+Tests the application for bugs, ensures compliance with security standards, and validates functionality before deployment.
+
+### Product Owner
+Defines project goals, prioritizes features, and ensures alignment with business objectives. Acts as a bridge between stakeholders and the development team.
+
+### Security Engineer
+Implements security best practices, monitors vulnerabilities, and ensures data protection through authentication and authorization mechanisms.
+
+### Frontend Developer
+Develops the client-side of the application, ensuring responsiveness and seamless interaction with backend services.
+
+
+
+
 ## Conclusion
 This project is designed to provide learners with practical exposure to building scalable, secure applications while following industry best practices. By participating, learners will not only gain technical expertise but also develop problem-solving skills essential for real-world development.
 
