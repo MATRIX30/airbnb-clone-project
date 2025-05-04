@@ -67,6 +67,26 @@ Implements security best practices, monitors vulnerabilities, and ensures data p
 ### Frontend Developer
 Develops the client-side of the application, ensuring responsiveness and seamless interaction with backend services.
 
+## Technology Stack
+
+The **Airbnb Clone Project** is built using a modern full-stack architecture. Below is a breakdown of the technologies used and their purpose within the project.
+
+### Backend
+- **Django** – A high-level Python web framework that simplifies backend development, enabling rapid API creation and database interactions.
+- **GraphQL** – A query language for APIs that optimizes data retrieval, allowing clients to fetch only the necessary information.
+
+### Database
+- **MySQL** – A relational database management system used to store and manage structured data efficiently.
+
+### Version Control & Collaboration
+- **GitHub** – A platform for repository management, version control, and team collaboration.
+
+### Containerization & Deployment
+- **Docker** – A containerization tool that simplifies application deployment, ensuring consistency across different environments.
+- **GitHub Actions** – A CI/CD tool that automates testing and deployment processes.
+
+### Security & Authentication
+- **JWT (JSON Web Tokens)** – A mechanism for secure user authentication and session management.
 
 
 
