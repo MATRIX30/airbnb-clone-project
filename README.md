@@ -143,6 +143,34 @@ Manages transaction details for bookings.
 - A **payment** is tied to a **booking** and a **user**.
 
 
+## Feature Breakdown
+
+The **Airbnb Clone Project** incorporates key features essential for a scalable booking platform. Below is a breakdown of the main features and their role in enhancing the user experience and system functionality.
+
+### 1. User Management
+Handles user authentication, registration, and role-based access control. Users can sign up as guests or hosts, manage their profiles, and securely log into the platform.
+
+### 2. Property Management
+Allows hosts to list, update, and remove properties. Each property includes details such as location, pricing, availability, and amenities.
+
+### 3. Booking System
+Enables guests to search for properties, check availability, and make reservations. The system ensures secure transactions and prevents double bookings.
+
+### 4. Review and Rating System
+Guests can leave reviews and rate their stay, providing valuable feedback for hosts and future users. Ratings help maintain service quality and transparency.
+
+### 5. Payment Processing
+Integrates secure payment gateways to handle transactions for bookings. Users can view invoices, payment history, and refund policies.
+
+### 6. Search and Filtering
+Allows users to search for properties based on location, price range, amenities, and availability, improving usability and efficiency.
+
+### 7. CI/CD Integration
+Automates the deployment and testing process using GitHub Actions and Docker, ensuring continuous delivery and reliable updates.
+
+### 8. API Security and Authentication
+Implements security measures such as JWT-based authentication and data encryption to safeguard user information and transactions.
+
 
 ## Conclusion
 This project is designed to provide learners with practical exposure to building scalable, secure applications while following industry best practices. By participating, learners will not only gain technical expertise but also develop problem-solving skills essential for real-world development.
