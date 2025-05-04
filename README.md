@@ -89,6 +89,60 @@ The **Airbnb Clone Project** is built using a modern full-stack architecture. Be
 - **JWT (JSON Web Tokens)** – A mechanism for secure user authentication and session management.
 
 
+## Database Design
+
+The **Airbnb Clone Project** database is structured using a relational model to efficiently manage bookings, properties, users, and transactions. Below are the key entities, their fields, and their relationships.
+
+### Key Entities
+
+#### 1. Users
+Stores information about registered users, including guests and hosts.
+- **id** (Primary Key) – Unique identifier for each user.
+- **name** – Full name of the user.
+- **email** – Unique email address for login.
+- **role** – Defines whether the user is a host or guest.
+- **created_at** – Timestamp of account creation.
+
+#### 2. Properties
+Represents accommodations listed by hosts.
+- **id** (Primary Key) – Unique identifier for each property.
+- **host_id** (Foreign Key) – References the `Users` table to associate a property with its owner.
+- **title** – Name or title of the property.
+- **location** – Address or general location of the property.
+- **price_per_night** – Cost for a single night stay.
+
+#### 3. Bookings
+Tracks reservations made by guests.
+- **id** (Primary Key) – Unique booking ID.
+- **user_id** (Foreign Key) – References the `Users` table to associate a booking with a guest.
+- **property_id** (Foreign Key) – References the `Properties` table to link the booking to a property.
+- **check_in_date** – The start date of the booking.
+- **check_out_date** – The end date of the booking.
+
+#### 4. Reviews
+Stores feedback left by guests about their stay.
+- **id** (Primary Key) – Unique identifier for each review.
+- **user_id** (Foreign Key) – References the `Users` table to associate a review with a guest.
+- **property_id** (Foreign Key) – References the `Properties` table to associate a review with a property.
+- **rating** – Numerical rating given by the guest.
+- **comment** – Text feedback about the stay.
+
+#### 5. Payments
+Manages transaction details for bookings.
+- **id** (Primary Key) – Unique transaction ID.
+- **booking_id** (Foreign Key) – Links the payment to a booking.
+- **user_id** (Foreign Key) – Identifies the paying user.
+- **amount** – Total payment amount.
+- **status** – Indicates whether the payment is completed or pending.
+
+### Entity Relationships
+- A **user** can list multiple **properties** as a host.
+- A **guest** can book multiple **properties** over time.
+- A **booking** is associated with one **property** and one **guest**.
+- A **review** belongs to a **user** and a **property**.
+- A **payment** is tied to a **booking** and a **user**.
+
+
 
 ## Conclusion
 This project is designed to provide learners with practical exposure to building scalable, secure applications while following industry best practices. By participating, learners will not only gain technical expertise but also develop problem-solving skills essential for real-world development.
